@@ -1,20 +1,21 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/dababy",
-		"particle": "item/dababy"
+		"particle": "item/dababy",
+		"layer0": "item/dababy"
 	},
 	"elements": [
 		{
 			"from": [0, 0, 8],
 			"to": [16, 16, 9],
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0], "texture": "#0"},
-				"east": {"uv": [0, 0, 0, 0], "texture": "#0"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 0, 0], "texture": "#0"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#0"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#0"}
+				"north": {"uv": [0, 0, 0, 0], "texture": "#layer0"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#layer0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#layer0"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#layer0"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#layer0"}
 			}
 		}
 	],
@@ -43,11 +44,11 @@
 			"scale": [1, 1, 0.5]
 		},
 		"head": {
-			"rotation": [0, 180, 0],
+			"rotation": [0, -180, 0],
 			"translation": [0, 0.25, -5.5]
 		},
 		"fixed": {
-			"rotation": [0, 180, 0],
+			"rotation": [0, -180, 0],
 			"translation": [0, 0, 0.75],
 			"scale": [2, 2, 2]
 		}
